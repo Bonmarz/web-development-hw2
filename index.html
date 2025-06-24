@@ -81,16 +81,32 @@
 <body>
   <!-- Header & Navigation -->
   <header>
-    <span class="logo">Martins Restaurant</span>
-    <nav>
-      <a href="#home" class="active">Home</a>
-      <a href="#menu">Menu</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <!-- Cart toggle button -->
-    <button id="cart-btn" class="order-btn"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></button>
-  </header>
+  <!-- Logo -->
+  <span class="logo">Martins Restaurant</span>
+
+  <!-- Hamburger button (visible only on mobile) -->
+  <button id="nav-toggle"
+          class="hamburger"
+          aria-label="Toggle navigation"
+          aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- Navigation links -->
+  <nav id="site-nav">
+    <a href="#home"  class="active">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Cart button -->
+  <button id="cart-btn" class="order-btn">
+    <i class="fas fa-shopping-cart"></i>
+    <span id="cart-count">0</span>
+  </button>
+</header>
+
 
   <!-- Hero Section -->
   <section class="hero" id="home">
