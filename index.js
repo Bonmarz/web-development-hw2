@@ -7,6 +7,3 @@ navToggle.addEventListener('click', () => {
   navToggle.setAttribute('aria-expanded', !expanded);
   siteNav.classList.toggle('open');
 });
-
-/* ---------------- Shopping cart logic ---------------- */
-/* (your current cart code follows here) */
